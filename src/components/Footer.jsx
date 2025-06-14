@@ -3,7 +3,7 @@ import { FaEnvelope, FaGithub, FaLinkedin } from "react-icons/fa";
 
 export default function Footer() {
   return (
-    <footer className="bg-gray-800 text-white py-6 flex flex-col items-center justify-center shadow-inner">
+    <footer className="bg-gray-950 text-white py-6 flex flex-col items-center justify-center shadow-inner">
       <div className="text-lg font-semibold mb-2">Sherin Perera</div>
       <div className="text-sm mb-2">© {new Date().getFullYear()} All rights reserved.</div>
       <div className="flex space-x-6">
