@@ -4,7 +4,7 @@ export default function Contact() {
   return (
     <section 
       id="contact"
-      className="bg-gradient-to-b from-green-950 to-blue-950 text-white p-10 min-h-screen flex flex-col items-center justify-center"
+      className="bg-gradient-to-b from-green-950 to-gray-900 text-white p-10 min-h-screen flex flex-col items-center justify-center"
     >
       <h2 className="text-2xl font-bold mb-8">Contact</h2>
       <p className="mb-6 text-lg text-center">

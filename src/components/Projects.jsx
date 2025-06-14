@@ -4,16 +4,16 @@ import { motion } from 'framer-motion';
 const projects = [
   {
     title: 'Project One',
-    description: 'A web app for task management.',
-    tech: 'React, Node.js',
-    github: 'https://github.com/username/project-one',
+    description: 'A library management system for managing books, users and transactions',
+    tech: 'Java',
+    github: 'https://github.com/SherinPerera02/Library-Management-System',
     image: 'gallery1.jpg'
   },
   {
     title: 'Project Two',
     description: 'Portfolio website.',
     tech: 'React, TailwindCSS',
-    github: 'https://github.com/username/project-two',
+    github: 'https://github.com/SherinPerera02/Portfolio',
     image: 'gallery2.jpg'
   },
   {
@@ -38,7 +38,7 @@ export default function Projects() {
         {projects.map((project, index) => (
           <motion.div
             key={index}
-            className="bg-gray-900 border border-gray-900 p-6 rounded-lg shadow-lg w-full min-h-[60vh] max-w-xs flex flex-col items-center transform transition-transform duration-300 hover:scale-105 hover:shadow-2xl"
+            className="bg-gray-900 border border-gray-900 p-6 rounded-lg shadow-lg w-full min-h-[60vh] max-w-xs flex flex-col items-center text-center justify-center text-centertransform transition-transform duration-300 hover:scale-105 hover:shadow-2xl"
             initial={{ opacity: 0, y: 40 }}
             whileInView={{ opacity: 1, y: 0 }}
             whileHover={{ scale: 1.07, boxShadow: "0 8px 32px 0 rgba(0,0,0,0.4)" }}
@@ -48,7 +48,7 @@ export default function Projects() {
             <motion.img
               src={project.image}
               alt={project.title}
-              className="mb-4 w-full h-40 object-cover rounded transition-transform duration-300"
+              className="mb-4 w-full h-40 object-cover text-center rounded transition-transform duration-300"
               whileHover={{ scale: 1.08 }}
               transition={{ duration: 0.3 }}
             />
