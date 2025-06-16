@@ -18,10 +18,10 @@ const projects = [
   },
   {
     title: 'Project Three',
-    description: 'Weather app using API integration.',
-    tech: 'React, OpenWeather API',
-    github: 'https://github.com/username/project-three',
-    image: 'gallery3.jpg'
+    description: 'Movies Search App with API integration.',
+    tech: 'HTML, CSS, JavaScript',
+    github: 'https://github.com/SherinPerera02/Movie-Search-Application',
+    image: 'gallery.jpg'
   }
 ];
 
