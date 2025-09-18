@@ -8,7 +8,7 @@ export default function Footer() {
       <div className="text-sm mb-2">© {new Date().getFullYear()} All rights reserved.</div>
       <div className="flex space-x-6">
        <a
-          href="mailto:your.email@example.com"
+          href="sherinmaheshika@gmail.com"
           className="hover:text-blue-400 transition-colors duration-200 flex items-center"
         >
           <FaEnvelope className="mr-2" /> Email
@@ -22,7 +22,7 @@ export default function Footer() {
           <FaGithub className="mr-2" /> GitHub
         </a>
         <a
-          href="https://linkedin.com/in/yourprofile"
+          href="https://www.linkedin.com/in/sherin-perera-01a56b306/"
           target="_blank"
           rel="noopener noreferrer"
           className="hover:text-blue-400 transition-colors duration-200 flex items-center"

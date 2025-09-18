@@ -4,24 +4,24 @@ import { motion } from 'framer-motion';
 const projects = [
   {
     title: 'Project One',
-    description: 'A library management system for managing books, users and transactions',
-    tech: 'Java',
-    github: 'https://github.com/SherinPerera02/Library-Management-System',
-    image: 'gallery1.jpg'
-  },
-  {
-    title: 'Project Two',
-    description: 'Portfolio website.',
-    tech: 'React, TailwindCSS',
-    github: 'https://github.com/SherinPerera02/Portfolio',
+    description: 'BrwOps Tea Factory Management System',
+    tech: 'React, Node.js, MySQL',
+    github: 'https://github.com/SherinPerera02/BrewOps',
     image: 'gallery2.jpg'
   },
   {
+    title: 'Project Two',
+    description: 'R.S. Electricals Online Store - Full featured e-commerce solution',
+    tech: 'React,Node.js, Express.js, MongoDB, TailwindCSS',
+    github: 'https://github.com/SherinPerera02/R.S.Electricals-Frontend',
+    image: 'gallery3.png'
+  },
+  {
     title: 'Project Three',
-    description: 'Movies Search App with API integration.',
-    tech: 'HTML, CSS, JavaScript',
-    github: 'https://github.com/SherinPerera02/Movie-Search-Application',
-    image: 'gallery.jpg'
+    description: 'Full Featured Coffee Machine - Python Flask Web App',
+    tech: 'Python, Flask',
+    github: 'https://github.com/SherinPerera02/coffee_machine',
+    image: 'gallery.png'
   }
 ];
 
