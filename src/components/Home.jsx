@@ -24,9 +24,11 @@ export default function Home() {
           <p className="mt-4 text-base sm:text-lg">
             This website is my personal portfolio, a place where I introduce myself, share what I’ve learned and highlight the projects I’ve built during my academic journey.
           </p>
-          <button className="bg-blue-800 text-white px-4 py-2 rounded-full hover:bg-black transition-colors duration-300 font-semibold mt-2 cursor-pointer">
-            Hire Me
-          </button>
+          <a href="#contact">
+            <button className="bg-blue-800 text-white px-4 py-2 rounded-full hover:bg-black transition-colors duration-300 font-semibold mt-2 cursor-pointer">
+              Hire Me
+            </button>
+          </a>
         </motion.div>
 
         <motion.img

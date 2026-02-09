@@ -34,7 +34,7 @@ export default function Contact() {
         I’m always open to discussing new projects, creative ideas or opportunities to be part of your vision. Feel free to reach out!</p>
       <div className="bg-gray-900 bg-opacity-80 rounded-xl shadow-2xl p-12 w-full max-w-2xl flex flex-col items-center">
         {submitted ? (
-          <div className="text-green-400 text-lg font-semibold">Thank you! Your message has been sent.</div>
+          <div className="text-gray-200 text-lg font-semibold">Thank you! Your message has been sent.</div>
         ) : (
           <form className="flex flex-col space-y-4 w-full" onSubmit={handleSubmit}>
             <input
