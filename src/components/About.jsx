@@ -105,7 +105,8 @@ export default function About() {
   return (
     <section 
       id="about"
-      className="bg-gradient-to-b from-green-950 to-blue-950 text-white p-10 min-h-screen flex flex-col items-center justify-start ">
+      className="bg-gradient-to-b from-green-950 to-blue-950 text-white p-10 min-h-screen flex flex-col items-center justify-start">
+      
       <div className="text-3xl font-bold mb-6">About Me</div>
 
       <div className="flex space-x-4 mb-6">
