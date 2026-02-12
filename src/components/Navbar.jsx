@@ -5,7 +5,7 @@ export default function Navbar() {
   const [menuOpen, setMenuOpen] = useState(false);
   const sections = ["home", "about", "projects", "contact"];
   return (
-    <nav className="bg-blue-950 text-white px-4 py-4 flex justify-between items-center shadow-md relative">
+    <nav className="bg-blue-950 text-white px-4 py-4 flex justify-between items-center shadow-md relative z-50">
       <div className="text-xl font-bold">Sherin Perera</div>
       {/* Hamburger for mobile */}
       <button

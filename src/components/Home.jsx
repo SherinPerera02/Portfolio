@@ -3,15 +3,13 @@ import About from "./About";
 import Projects from "./Projects";
 import Contact from "./Contact";
 import Footer from "./Footer";
-import AnimatedBackground from "./AnimatedBackground";
 
 export default function Home() {
   return (
     <>
-      <AnimatedBackground />
       <section
         id="home"
-        className="relative z-10 bg-gradient-to-b from-blue-950 to-green-950 text-white p-4 sm:p-8 min-h-screen flex flex-col md:flex-row items-center justify-center text-left gap-8"
+        className="bg-gradient-to-b from-blue-950 to-green-950 text-white p-4 sm:p-8 min-h-screen flex flex-col md:flex-row items-center justify-center text-left gap-8"
       >
         <motion.div
           initial={{ opacity: 0, y: 10 }}
